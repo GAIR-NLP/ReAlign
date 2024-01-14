@@ -1,0 +1,1402 @@
+[
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the democratic party change its name?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Democratic Party changed its name in the 1830s."
+            }
+        ],
+        "id": 0
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the taming ofthe shrew first performed?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The taming of the shrew was first performed prior to June 1592."
+            }
+        ],
+        "id": 1
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the setting of a dolls house?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The setting of \"A Doll's House\" is a Norwegian town circa 1879."
+            }
+        ],
+        "id": 2
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where are unipolar neurons found in spinal cord?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "Unipolar neurons are found in the distal dorsal root of the spinal cord."
+            }
+        ],
+        "id": 3
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does the synthesis of new dna from existing dna occurs?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "The synthesis of new DNA from existing DNA occurs at specific regions called origins of replication. These are the sites where the DNA unwinds and replication begins."
+            }
+        ],
+        "id": 4
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did houston go to the american league?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Houston went to the American League in 2013."
+            }
+        ],
+        "id": 5
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays the judge in drop dead diva?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Lex Medlin"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who are the artists in the traveling wilburys?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Roy Orbison, Jeff Lynne, George Harrison, Bob Dylan, and Tom Petty are the artists in the Traveling Wilburys."
+            }
+        ],
+        "id": 7
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where is dakar located on the world map?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "Senegal"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where do the secretory cells of endocrine glands secrete their products?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "The secretory cells of endocrine glands secrete their products directly into the bloodstream or onto the epithelial surface."
+            }
+        ],
+        "id": 9
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "5 cities with the highest population in europe?",
+                "category": "ordering"
+            },
+            {
+                "from": "gpt",
+                "value": "The five cities with the highest population in Europe are London, Istanbul, Moscow, Saint Petersburg, and Berlin."
+            }
+        ],
+        "id": 10
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did world war one begin and end?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "World War One began on 28 July 1914 and ended on 11 November 1918."
+            }
+        ],
+        "id": 11
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where will the next summer and winter olympics be held?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The next summer Olympics will be held in Tokyo, and the next winter Olympics will be held in Beijing."
+            }
+        ],
+        "id": 12
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the center of heredity in a cell?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "The center of heredity in a cell is the nucleus."
+            }
+        ],
+        "id": 13
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where did the term hot rod come from?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The term \"hot rod\" originated in southern California. It is used to describe a modified car, typically an older model, that has been customized for increased speed and performance."
+            }
+        ],
+        "id": 14
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the bill of rights come out?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Bill of Rights came out on December 16, 1689."
+            }
+        ],
+        "id": 15
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where can the mona lisa be found today?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "Musée du Louvre, Paris\nLouvre Museum in Paris"
+            }
+        ],
+        "id": 16
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sings only love can break your heart?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Neil Young"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was first governor general of british india?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The first Governor-General of British India was Warren Hastings."
+            }
+        ],
+        "id": 18
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song balls to the wall?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The song \"Balls to the Wall\" was written by the band Accept, with the lyrics being written by Gaby \"Deaffy\" Hauke, and the music being composed by members of the band."
+            }
+        ],
+        "id": 19
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who represents the arizona 9th district in the house?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Kyrsten Sinema represents the Arizona 9th district in the House."
+            }
+        ],
+        "id": 20
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what does v sign in front of mouth mean?",
+                "category": "language_learning_questions"
+            },
+            {
+                "from": "gpt",
+                "value": "The V sign in front of the mouth is commonly used to signify cunnilingus."
+            }
+        ],
+        "id": 21
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is eliminated in big boss kannada 5?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Shruti, Niveditha, and Diwakar were eliminated in Big Boss Kannada 5."
+            }
+        ],
+        "id": 22
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was the chicago bears quarterback last year?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Chicago Bears quarterback last year was a combination of Jay Cutler, Brian Hoyer, and Matt Barkley."
+            }
+        ],
+        "id": 23
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "super robot monkey team hyperforce go fighting games?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "Galactic Smash"
+            }
+        ],
+        "id": 24
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was i can only imagine the song released?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "1999\n2001"
+            }
+        ],
+        "id": 25
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who does the voice of nelson on simpsons?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Nancy Jean Cartwright"
+            }
+        ],
+        "id": 26
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was running as vice president in 1984?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "George H. W. Bush"
+            }
+        ],
+        "id": 27
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays peter in what we do in the shadows?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Ben Fransham"
+            }
+        ],
+        "id": 28
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who said that religion is the opiate of the masses?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Karl Marx."
+            }
+        ],
+        "id": 29
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the first horrid henry book written?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The first Horrid Henry book was published in 1994."
+            }
+        ],
+        "id": 30
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who did the steelers lose to in the playoffs last year?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Pittsburgh Steelers lost to the New England Patriots in the playoffs last year."
+            }
+        ],
+        "id": 31
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where did they film the book of eli?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "New Mexico\nin New Mexico"
+            }
+        ],
+        "id": 32
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the angel of the north get built?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Angel of the North was built in 1998."
+            }
+        ],
+        "id": 33
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the icc under 19 world cup 2018?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "India won the ICC Under 19 World Cup 2018."
+            }
+        ],
+        "id": 34
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the name of the main artery which takes blood from the heart to the body?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The main artery that takes blood from the heart to the body is the aorta."
+            }
+        ],
+        "id": 35
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote got this feeling in my body?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Max Martin, Johan Schuster, and Justin Timberlake wrote \"Got This Feeling in My Body.\""
+            }
+        ],
+        "id": 36
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who invented the glasses that give sight to the blind?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The glasses that give sight to the blind were invented by Conrad Lewis in 2006."
+            }
+        ],
+        "id": 37
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what group of animals do octopus belong to?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Octopuses belong to the animal class Cephalopoda, which also includes squids and cuttlefish. This class is characterized by the presence of a distinct head and a set of arms or tentacles."
+            }
+        ],
+        "id": 38
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when is last time the astros won the world series?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The last time the Astros won the World Series was in 2017."
+            }
+        ],
+        "id": 39
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the outer layer of the skin that contains no blood or nerve supply is the?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "The outer layer of the skin that contains no blood or nerve supply is called the epidermis."
+            }
+        ],
+        "id": 40
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the south asian association for regional co-operation (saarc) formed?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The South Asian Association for Regional Co-operation (SAARC) was formed on 8 December 1985."
+            }
+        ],
+        "id": 41
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the owner of the mandalay bay in vegas?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "MGM Resorts International"
+            }
+        ],
+        "id": 42
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what's the difference between salisbury steak and hamburger steak?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The main difference between salisbury steak and hamburger steak lies in the ingredients used. While both dishes are made from ground beef, salisbury steak typically includes additional ingredients such as breadcrumbs, onions, and seasonings, which are mixed into the ground beef before being formed into patties. On the other hand, hamburger steak is usually made solely from ground beef without the addition of other ingredients."
+            }
+        ],
+        "id": 43
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang never gonna let you go?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Joe Pizzulo and Leeza Miller sang \"Never Gonna Let You Go.\""
+            }
+        ],
+        "id": 44
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does the paraguay river start and end?",
+                "category": "exam_problem_solving_tutor"
+            },
+            {
+                "from": "gpt",
+                "value": "The Paraguay River starts in the Mato Grosso plateau in Brazil and flows southward for about 1,584 miles before it joins the Paraná River."
+            }
+        ],
+        "id": 45
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the type of display that google glass presents to its users is called what?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The type of display that Google Glass presents to its users is called an optical head-mounted display."
+            }
+        ],
+        "id": 46
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "which is the ring finger for male in india?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The ring finger for males in India is the left ring finger."
+            }
+        ],
+        "id": 47
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is pictured on the 5000 dollar bill?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "James Madison"
+            }
+        ],
+        "id": 48
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the population of keystone heights florida?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The population of Keystone Heights, Florida is 1,350."
+            }
+        ],
+        "id": 49
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who commissioned the first christmas card in 1943?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Sir Henry Cole."
+            }
+        ],
+        "id": 50
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the movie karate kid come out?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The movie \"Karate Kid\" was released in 1984."
+            }
+        ],
+        "id": 51
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time anyone was on the moon?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The last time anyone was on the moon was on December 14, 1972 UTC."
+            }
+        ],
+        "id": 52
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the king of kalinga in the mauryan period was?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Ashoka"
+            }
+        ],
+        "id": 53
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the chief economic advisor of india?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Arvind Subramanian"
+            }
+        ],
+        "id": 54
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when does mexico play in the winter olympics?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Mexico played in the Winter Olympics from February 9th to February 25th, 2018."
+            }
+        ],
+        "id": 55
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "how many house of representative do we have in nigeria?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Nigeria has 360 members in the House of Representatives."
+            }
+        ],
+        "id": 56
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the girl in green day 21 guns?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Lisa Stelly"
+            }
+        ],
+        "id": 57
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did toyota start making cars in the us?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Toyota started making cars in the US in the early 1980s, specifically in 1984."
+            }
+        ],
+        "id": 58
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the most on who wants to be a millionaire?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Kevin Olmstead"
+            }
+        ],
+        "id": 59
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what age do you need to be to buy a bb gun?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "You need to be 18 years old to buy a bb gun."
+            }
+        ],
+        "id": 60
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who did the singing in into the woods?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The singing in \"Into the Woods\" was performed by the cast members."
+            }
+        ],
+        "id": 61
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sings i feel love with the blue man group?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Annette Strean, Annette, and Venus Hum are the singers who have performed \"I Feel Love\" with the Blue Man Group."
+            }
+        ],
+        "id": 62
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time mount etna exploded?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Mount Etna last exploded in 16 March 2017."
+            }
+        ],
+        "id": 63
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "first jnanpith award was an autor of which language?",
+                "category": "language_classification"
+            },
+            {
+                "from": "gpt",
+                "value": "The first Jnanpith Award was given to an author in the Malayalam language."
+            }
+        ],
+        "id": 64
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the 7 man elimination chamber match?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Roman Reigns"
+            }
+        ],
+        "id": 65
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song if i were a boy?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The song \"If I Were a Boy\" was written by BC Jean and Toby Gad."
+            }
+        ],
+        "id": 66
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the cowboys start playing on thanksgiving day?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The Dallas Cowboys started playing on Thanksgiving Day in 1966."
+            }
+        ],
+        "id": 67
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does a roadrunner live in the desert?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "mountainous shrubland\narid lowland"
+            }
+        ],
+        "id": 68
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "in what state was the united states center of population gravity located during the period 1790?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The United States center of population gravity was located in Kent County, Maryland during the period 1790. This means that, based on the distribution of the population at that time, the geographic center of the United States was in Kent County, Maryland."
+            }
+        ],
+        "id": 69
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when is the 5th round fa cup played?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The 5th round of the FA Cup is played on 16th February 2018."
+            }
+        ],
+        "id": 70
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the movie napoleon dynamite come out?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The movie \"Napoleon Dynamite\" was released on June 11, 2004."
+            }
+        ],
+        "id": 71
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "how many customers does edf have in the uk?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "EDF has 5.7 million customer accounts in the UK."
+            }
+        ],
+        "id": 72
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who stepped out of the dithyrambic chorus to become the first actor?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Thespis"
+            }
+        ],
+        "id": 73
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays ivo on once upon a time?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Dan Payne"
+            }
+        ],
+        "id": 74
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played sonny in lemony snicket's a series of unfortunate events?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Presley Smith"
+            }
+        ],
+        "id": 75
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays young agent o in mib 3?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Alice Eve plays young agent O in MIB 3."
+            }
+        ],
+        "id": 76
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played shmuel in the boy in the striped pyjamas?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Jack Scanlon"
+            }
+        ],
+        "id": 77
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time a hurricane hit massachusetts?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "November 3, 2007"
+            }
+        ],
+        "id": 78
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played young monica in love and basketball?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Kyla Pratt"
+            }
+        ],
+        "id": 79
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where is a simple gear train used in real life?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "A simple gear train is used in real life in automobile drivetrains."
+            }
+        ],
+        "id": 80
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played ethel on the doris day show?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Carol Worthington"
+            }
+        ],
+        "id": 81
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time university of michigan won a national championship?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The University of Michigan last won a national championship in 1997."
+            }
+        ],
+        "id": 82
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did ole miss beat alabama in football?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Ole Miss beat Alabama in football on the following dates: October 3, 1970, September 11, 1976, October 13, 2001, October 27, 1894, October 18, 2003, November 5, 1910, October 8, 1988, October 4, 2014, September 19, 2015, and October 5, 1968."
+            }
+        ],
+        "id": 83
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "state the process that divides one nucleus into two genetically identical nuclei?",
+                "category": "explain_answer"
+            },
+            {
+                "from": "gpt",
+                "value": "Mitosis is the process that divides one nucleus into two genetically identical nuclei. During mitosis, the genetic material is replicated and then equally distributed to two daughter nuclei. This process ensures that each new cell receives an identical set of chromosomes to the parent cell."
+            }
+        ],
+        "id": 84
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who discovered one of the first taxonomic classification schemes?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Swedish botanist Carl Linnaeus."
+            }
+        ],
+        "id": 85
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who were the twins that played for kentucky?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Aaron Harrison and Andrew Michael Harrison."
+            }
+        ],
+        "id": 86
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song always be humble and kind?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Lori McKenna"
+            }
+        ],
+        "id": 87
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where do rory and paris go to college?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "Yale University\nYale University,"
+            }
+        ],
+        "id": 88
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when does dragon ball super episode 130 comes out?",
+                "category": "advice_giving"
+            },
+            {
+                "from": "gpt",
+                "value": "March 18, 2018"
+            }
+        ],
+        "id": 89
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the pastor of new birth missionary baptist church now?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Stephen A. Davis is the pastor of New Birth Missionary Baptist Church currently."
+            }
+        ],
+        "id": 90
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang it's a mean old world?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "T-Bone Walker sang \"It's a Mean Old World.\""
+            }
+        ],
+        "id": 91
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what states were most affected by the dust bowl?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Iowa, Oklahoma, Nebraska, Arkansas, New Mexico, Kansas, Colorado, Texas, and Missouri were the states most affected by the Dust Bowl."
+            }
+        ],
+        "id": 92
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang the song with reba does he love you?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The song \"Does He Love You\" was sung by Linda Davis."
+            }
+        ],
+        "id": 93
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "consist of the sum of the fixed and variable costs for any given level of production?",
+                "category": "default"
+            },
+            {
+                "from": "gpt",
+                "value": "The total cost (TC) consists of the sum of the fixed and variable costs for any given level of production. Fixed costs remain constant regardless of the level of production, while variable costs fluctuate based on the level of production. The total cost is an important factor in determining the overall expenses incurred in the production process."
+            }
+        ],
+        "id": 94
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the leader of the ontario pc party?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "The leader of the Ontario PC party is Patrick Brown."
+            }
+        ],
+        "id": 95
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what was guantanamo bay before it was a prison?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Guantanamo Bay was a naval base before it became a prison."
+            }
+        ],
+        "id": 96
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won big brother head of household canada?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "Kaela"
+            }
+        ],
+        "id": 97
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "songs on 4 your eyez only j cole?",
+                "category": "rejecting"
+            },
+            {
+                "from": "gpt",
+                "value": "\"The songs on the album '4 Your Eyez Only' by J. Cole are: \n1. Immortal\n2. 4 Your Eyez Only\n3. Ville Mentality\n4. Deja Vu\n5. She's Mine Pt. 2\n6. She's Mine Pt. 1\n7. Change\n8. For Whom the Bell Tolls\n9. Neighbors\n10. Foldin Clothes\""
+            }
+        ],
+        "id": 98
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who makes the decisions about what to produce in a market economy?",
+                "category": "open_qa"
+            },
+            {
+                "from": "gpt",
+                "value": "In a market economy, the decisions about what to produce are primarily made by individuals and businesses based on supply and demand in capital and financial markets."
+            }
+        ],
+        "id": 99
+    }
+]

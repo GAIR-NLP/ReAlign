@@ -1,0 +1,1302 @@
+[
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the democratic party change its name?"
+            },
+            {
+                "from": "gpt",
+                "value": "the 1830s"
+            }
+        ],
+        "id": 0
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the taming ofthe shrew first performed?"
+            },
+            {
+                "from": "gpt",
+                "value": "prior to June 1592"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the setting of a dolls house?"
+            },
+            {
+                "from": "gpt",
+                "value": "a Norwegian town circa 1879\na Norwegian town"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where are unipolar neurons found in spinal cord?"
+            },
+            {
+                "from": "gpt",
+                "value": "the distal dorsal root"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does the synthesis of new dna from existing dna occurs?"
+            },
+            {
+                "from": "gpt",
+                "value": "origins of replication"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did houston go to the american league?"
+            },
+            {
+                "from": "gpt",
+                "value": "2013"
+            }
+        ],
+        "id": 5
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays the judge in drop dead diva?"
+            },
+            {
+                "from": "gpt",
+                "value": "Lex Medlin"
+            }
+        ],
+        "id": 6
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who are the artists in the traveling wilburys?"
+            },
+            {
+                "from": "gpt",
+                "value": "Roy Orbison\nJeff Lynne\nGeorge Harrison\nBob Dylan\nTom Petty"
+            }
+        ],
+        "id": 7
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where is dakar located on the world map?"
+            },
+            {
+                "from": "gpt",
+                "value": "Senegal"
+            }
+        ],
+        "id": 8
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where do the secretory cells of endocrine glands secrete their products?"
+            },
+            {
+                "from": "gpt",
+                "value": "epithelial surface\nbloodstream\ndirectly into the bloodstream"
+            }
+        ],
+        "id": 9
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "5 cities with the highest population in europe?"
+            },
+            {
+                "from": "gpt",
+                "value": "London\nSaint Petersburg\nBerlin\nMoscow\nIstanbul"
+            }
+        ],
+        "id": 10
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did world war one begin and end?"
+            },
+            {
+                "from": "gpt",
+                "value": "28 July 1914\n11 November 1918"
+            }
+        ],
+        "id": 11
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where will the next summer and winter olympics be held?"
+            },
+            {
+                "from": "gpt",
+                "value": "Beijing\nTokyo"
+            }
+        ],
+        "id": 12
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the center of heredity in a cell?"
+            },
+            {
+                "from": "gpt",
+                "value": "nucleus\nCell nuclei\nthe nucleus\nchromosome"
+            }
+        ],
+        "id": 13
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where did the term hot rod come from?"
+            },
+            {
+                "from": "gpt",
+                "value": "southern California"
+            }
+        ],
+        "id": 14
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the bill of rights come out?"
+            },
+            {
+                "from": "gpt",
+                "value": "1689\n16 December 1689"
+            }
+        ],
+        "id": 15
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where can the mona lisa be found today?"
+            },
+            {
+                "from": "gpt",
+                "value": "Musée du Louvre, Paris\nLouvre Museum in Paris"
+            }
+        ],
+        "id": 16
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sings only love can break your heart?"
+            },
+            {
+                "from": "gpt",
+                "value": "Neil Young"
+            }
+        ],
+        "id": 17
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was first governor general of british india?"
+            },
+            {
+                "from": "gpt",
+                "value": "Louis Mountbatten\nWarren Hastings"
+            }
+        ],
+        "id": 18
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song balls to the wall?"
+            },
+            {
+                "from": "gpt",
+                "value": "Deaffy\nUdo Dirkschneider\nHerman Frank\nWolf Hoffmann\nStefan Kaufmann\nPeter Baltes"
+            }
+        ],
+        "id": 19
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who represents the arizona 9th district in the house?"
+            },
+            {
+                "from": "gpt",
+                "value": "Kyrsten Sinema"
+            }
+        ],
+        "id": 20
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what does v sign in front of mouth mean?"
+            },
+            {
+                "from": "gpt",
+                "value": "signify cunnilingus\ncunnilingus"
+            }
+        ],
+        "id": 21
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is eliminated in big boss kannada 5?"
+            },
+            {
+                "from": "gpt",
+                "value": "Shruti\nNiveditha\nDiwakar"
+            }
+        ],
+        "id": 22
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was the chicago bears quarterback last year?"
+            },
+            {
+                "from": "gpt",
+                "value": "Matt Barkley\nJay Cutler (5)\nMatt Barkley (6)\nBrian Hoyer\nJay Cutler\nBrian Hoyer (5)"
+            }
+        ],
+        "id": 23
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "super robot monkey team hyperforce go fighting games?"
+            },
+            {
+                "from": "gpt",
+                "value": "Galactic Smash"
+            }
+        ],
+        "id": 24
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was i can only imagine the song released?"
+            },
+            {
+                "from": "gpt",
+                "value": "1999\n2001"
+            }
+        ],
+        "id": 25
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who does the voice of nelson on simpsons?"
+            },
+            {
+                "from": "gpt",
+                "value": "Nancy Jean Cartwright"
+            }
+        ],
+        "id": 26
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who was running as vice president in 1984?"
+            },
+            {
+                "from": "gpt",
+                "value": "George H. W. Bush\nFerraro\nVice President George H. W. Bush\nCongresswoman Ferraro"
+            }
+        ],
+        "id": 27
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays peter in what we do in the shadows?"
+            },
+            {
+                "from": "gpt",
+                "value": "Ben Fransham"
+            }
+        ],
+        "id": 28
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who said that religion is the opiate of the masses?"
+            },
+            {
+                "from": "gpt",
+                "value": "Karl Marx.\nKarl Marx"
+            }
+        ],
+        "id": 29
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the first horrid henry book written?"
+            },
+            {
+                "from": "gpt",
+                "value": "published in 1994\n1994\nin 1994"
+            }
+        ],
+        "id": 30
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who did the steelers lose to in the playoffs last year?"
+            },
+            {
+                "from": "gpt",
+                "value": "New England Patriots"
+            }
+        ],
+        "id": 31
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where did they film the book of eli?"
+            },
+            {
+                "from": "gpt",
+                "value": "New Mexico\nin New Mexico"
+            }
+        ],
+        "id": 32
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the angel of the north get built?"
+            },
+            {
+                "from": "gpt",
+                "value": "1998\n1994"
+            }
+        ],
+        "id": 33
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the icc under 19 world cup 2018?"
+            },
+            {
+                "from": "gpt",
+                "value": "West Indies\nIndia"
+            }
+        ],
+        "id": 34
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the name of the main artery which takes blood from the heart to the body?"
+            },
+            {
+                "from": "gpt",
+                "value": "The aorta\naorta"
+            }
+        ],
+        "id": 35
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote got this feeling in my body?"
+            },
+            {
+                "from": "gpt",
+                "value": "Max Martin\nJohan Schuster\nJustin Timberlake"
+            }
+        ],
+        "id": 36
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who invented the glasses that give sight to the blind?"
+            },
+            {
+                "from": "gpt",
+                "value": "2006\nConrad Lewis"
+            }
+        ],
+        "id": 37
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what group of animals do octopus belong to?"
+            },
+            {
+                "from": "gpt",
+                "value": "class Cephalopoda"
+            }
+        ],
+        "id": 38
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when is last time the astros won the world series?"
+            },
+            {
+                "from": "gpt",
+                "value": "2017"
+            }
+        ],
+        "id": 39
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the outer layer of the skin that contains no blood or nerve supply is the?"
+            },
+            {
+                "from": "gpt",
+                "value": "epidermis"
+            }
+        ],
+        "id": 40
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the south asian association for regional co-operation (saarc) formed?"
+            },
+            {
+                "from": "gpt",
+                "value": "December 1985\n8 December 1985"
+            }
+        ],
+        "id": 41
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the owner of the mandalay bay in vegas?"
+            },
+            {
+                "from": "gpt",
+                "value": "MGM Resorts International"
+            }
+        ],
+        "id": 42
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what's the difference between salisbury steak and hamburger steak?"
+            },
+            {
+                "from": "gpt",
+                "value": "ingredients"
+            }
+        ],
+        "id": 43
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang never gonna let you go?"
+            },
+            {
+                "from": "gpt",
+                "value": "Joe Pizzulo and Leeza Miller\nJoe Pizzulo\nLeeza Miller"
+            }
+        ],
+        "id": 44
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does the paraguay river start and end?"
+            },
+            {
+                "from": "gpt",
+                "value": "Paraná River"
+            }
+        ],
+        "id": 45
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the type of display that google glass presents to its users is called what?"
+            },
+            {
+                "from": "gpt",
+                "value": "head-up display\noptical head-mounted display\nPrism projector"
+            }
+        ],
+        "id": 46
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "which is the ring finger for male in india?"
+            },
+            {
+                "from": "gpt",
+                "value": "the left ring finger\nleft ring finger"
+            }
+        ],
+        "id": 47
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is pictured on the 5000 dollar bill?"
+            },
+            {
+                "from": "gpt",
+                "value": "James Madison"
+            }
+        ],
+        "id": 48
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what is the population of keystone heights florida?"
+            },
+            {
+                "from": "gpt",
+                "value": "1,350\n1,461"
+            }
+        ],
+        "id": 49
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who commissioned the first christmas card in 1943?"
+            },
+            {
+                "from": "gpt",
+                "value": "Sir Henry Cole"
+            }
+        ],
+        "id": 50
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the movie karate kid come out?"
+            },
+            {
+                "from": "gpt",
+                "value": "2010\n1984"
+            }
+        ],
+        "id": 51
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time anyone was on the moon?"
+            },
+            {
+                "from": "gpt",
+                "value": "14 December 1972 UTC\nDecember 1972"
+            }
+        ],
+        "id": 52
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "the king of kalinga in the mauryan period was?"
+            },
+            {
+                "from": "gpt",
+                "value": "Ashoka"
+            }
+        ],
+        "id": 53
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the chief economic advisor of india?"
+            },
+            {
+                "from": "gpt",
+                "value": "Arvind Subramanian"
+            }
+        ],
+        "id": 54
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when does mexico play in the winter olympics?"
+            },
+            {
+                "from": "gpt",
+                "value": "9 to 25 February 2018"
+            }
+        ],
+        "id": 55
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "how many house of representative do we have in nigeria?"
+            },
+            {
+                "from": "gpt",
+                "value": "360\n360 members"
+            }
+        ],
+        "id": 56
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the girl in green day 21 guns?"
+            },
+            {
+                "from": "gpt",
+                "value": "Lisa Stelly"
+            }
+        ],
+        "id": 57
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did toyota start making cars in the us?"
+            },
+            {
+                "from": "gpt",
+                "value": "by the early 1980s\n1984"
+            }
+        ],
+        "id": 58
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the most on who wants to be a millionaire?"
+            },
+            {
+                "from": "gpt",
+                "value": "Kevin Olmstead\nDavid Goodman"
+            }
+        ],
+        "id": 59
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what age do you need to be to buy a bb gun?"
+            },
+            {
+                "from": "gpt",
+                "value": "18"
+            }
+        ],
+        "id": 60
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who did the singing in into the woods?"
+            },
+            {
+                "from": "gpt",
+                "value": "the cast\nthe cast members"
+            }
+        ],
+        "id": 61
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sings i feel love with the blue man group?"
+            },
+            {
+                "from": "gpt",
+                "value": "Annette Strean\nAnnette\nVenus Hum"
+            }
+        ],
+        "id": 62
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time mount etna exploded?"
+            },
+            {
+                "from": "gpt",
+                "value": "July–October 2012\n16 March 2017"
+            }
+        ],
+        "id": 63
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "first jnanpith award was an autor of which language?"
+            },
+            {
+                "from": "gpt",
+                "value": "Malayalam"
+            }
+        ],
+        "id": 64
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won the 7 man elimination chamber match?"
+            },
+            {
+                "from": "gpt",
+                "value": "Roman Reigns"
+            }
+        ],
+        "id": 65
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song if i were a boy?"
+            },
+            {
+                "from": "gpt",
+                "value": "BC Jean and Toby Gad\nToby Gad\nBC Jean"
+            }
+        ],
+        "id": 66
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the cowboys start playing on thanksgiving day?"
+            },
+            {
+                "from": "gpt",
+                "value": "In 1966\n1966\n1978"
+            }
+        ],
+        "id": 67
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where does a roadrunner live in the desert?"
+            },
+            {
+                "from": "gpt",
+                "value": "mountainous shrubland\narid lowland"
+            }
+        ],
+        "id": 68
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "in what state was the united states center of population gravity located during the period 1790?"
+            },
+            {
+                "from": "gpt",
+                "value": "Maryland\nKent County, Maryland"
+            }
+        ],
+        "id": 69
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when is the 5th round fa cup played?"
+            },
+            {
+                "from": "gpt",
+                "value": "29 January 2018\nFebruary 2018\n16 February 2018"
+            }
+        ],
+        "id": 70
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the movie napoleon dynamite come out?"
+            },
+            {
+                "from": "gpt",
+                "value": "June 11, 2004\n2004"
+            }
+        ],
+        "id": 71
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "how many customers does edf have in the uk?"
+            },
+            {
+                "from": "gpt",
+                "value": "5.7 million customer accounts\n5.7 million"
+            }
+        ],
+        "id": 72
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who stepped out of the dithyrambic chorus to become the first actor?"
+            },
+            {
+                "from": "gpt",
+                "value": "Thespis"
+            }
+        ],
+        "id": 73
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays ivo on once upon a time?"
+            },
+            {
+                "from": "gpt",
+                "value": "Dan Payne"
+            }
+        ],
+        "id": 74
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played sonny in lemony snicket's a series of unfortunate events?"
+            },
+            {
+                "from": "gpt",
+                "value": "Presley Smith"
+            }
+        ],
+        "id": 75
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who plays young agent o in mib 3?"
+            },
+            {
+                "from": "gpt",
+                "value": "Alice Eve"
+            }
+        ],
+        "id": 76
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played shmuel in the boy in the striped pyjamas?"
+            },
+            {
+                "from": "gpt",
+                "value": "Jack Scanlon"
+            }
+        ],
+        "id": 77
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time a hurricane hit massachusetts?"
+            },
+            {
+                "from": "gpt",
+                "value": "November 3, 2007"
+            }
+        ],
+        "id": 78
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played young monica in love and basketball?"
+            },
+            {
+                "from": "gpt",
+                "value": "Kyla Pratt"
+            }
+        ],
+        "id": 79
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where is a simple gear train used in real life?"
+            },
+            {
+                "from": "gpt",
+                "value": "Automobile drivetrains"
+            }
+        ],
+        "id": 80
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who played ethel on the doris day show?"
+            },
+            {
+                "from": "gpt",
+                "value": "Carol Worthington"
+            }
+        ],
+        "id": 81
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when was the last time university of michigan won a national championship?"
+            },
+            {
+                "from": "gpt",
+                "value": "1997"
+            }
+        ],
+        "id": 82
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when did ole miss beat alabama in football?"
+            },
+            {
+                "from": "gpt",
+                "value": "October 3, 1970\nSeptember 11, 1976\nOctober 13, 2001\nOctober 27, 1894\nOctober 18, 2003\nNovember 5, 1910\nOctober 8, 1988\nOctober 4, 2014\nSeptember 19, 2015\nOctober 5, 1968"
+            }
+        ],
+        "id": 83
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "state the process that divides one nucleus into two genetically identical nuclei?"
+            },
+            {
+                "from": "gpt",
+                "value": "mitosis"
+            }
+        ],
+        "id": 84
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who discovered one of the first taxonomic classification schemes?"
+            },
+            {
+                "from": "gpt",
+                "value": "Swedish botanist Carl Linnaeus"
+            }
+        ],
+        "id": 85
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who were the twins that played for kentucky?"
+            },
+            {
+                "from": "gpt",
+                "value": "Aaron Harrison\nAndrew Michael Harrison"
+            }
+        ],
+        "id": 86
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who wrote the song always be humble and kind?"
+            },
+            {
+                "from": "gpt",
+                "value": "Lori McKenna"
+            }
+        ],
+        "id": 87
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "where do rory and paris go to college?"
+            },
+            {
+                "from": "gpt",
+                "value": "Yale University\nYale University,"
+            }
+        ],
+        "id": 88
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "when does dragon ball super episode 130 comes out?"
+            },
+            {
+                "from": "gpt",
+                "value": "March 18, 2018"
+            }
+        ],
+        "id": 89
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the pastor of new birth missionary baptist church now?"
+            },
+            {
+                "from": "gpt",
+                "value": "Stephen A. Davis"
+            }
+        ],
+        "id": 90
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang it's a mean old world?"
+            },
+            {
+                "from": "gpt",
+                "value": "T-Bone Walker"
+            }
+        ],
+        "id": 91
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what states were most affected by the dust bowl?"
+            },
+            {
+                "from": "gpt",
+                "value": "Iowa\nOklahoma\nNebraska\nArkansas\nNew Mexico\nKansas\nColorado\nTexas\nMissouri"
+            }
+        ],
+        "id": 92
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who sang the song with reba does he love you?"
+            },
+            {
+                "from": "gpt",
+                "value": "Linda Davis"
+            }
+        ],
+        "id": 93
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "consist of the sum of the fixed and variable costs for any given level of production?"
+            },
+            {
+                "from": "gpt",
+                "value": "total cost (TC)"
+            }
+        ],
+        "id": 94
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who is the leader of the ontario pc party?"
+            },
+            {
+                "from": "gpt",
+                "value": "Patrick Brown\nPatrick Walter Brown MPP\nPatrick Walter Brown"
+            }
+        ],
+        "id": 95
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "what was guantanamo bay before it was a prison?"
+            },
+            {
+                "from": "gpt",
+                "value": "Guantanamo Bay Naval Base"
+            }
+        ],
+        "id": 96
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who won big brother head of household canada?"
+            },
+            {
+                "from": "gpt",
+                "value": "Kaela"
+            }
+        ],
+        "id": 97
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "songs on 4 your eyez only j cole?"
+            },
+            {
+                "from": "gpt",
+                "value": "Immortal\n4 Your Eyez Only\nVille Mentality\nDeja Vu\nShe's Mine Pt. 2\nShe's Mine Pt. 1\nChange\nFor Whom the Bell Tolls\nNeighbors\nFoldin Clothes"
+            }
+        ],
+        "id": 98
+    },
+    {
+        "items": [
+            {
+                "from": "human",
+                "value": "who makes the decisions about what to produce in a market economy?"
+            },
+            {
+                "from": "gpt",
+                "value": "capital and financial markets"
+            }
+        ],
+        "id": 99
+    }
+]
