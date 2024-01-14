@@ -12,8 +12,30 @@ This is the official repository for [**Reformatted Alignment**](https://arxiv.or
   - [Pipeline](#pipeline)
 - [ReAlign Dataset](#realign-dataset)
 - [Other Resources](#other-resources)
-  - [Tasks Description and Format](#scenarios)
+  - [Tasks Description and Formats](#scenarios)
   - [Task Classifier: Model and Data](#scenario-classifier)
   - [Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses](#factuality-evaluation)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
+
+## Introduction
+
+## Quick Start
+
+### Setup
+
+### Pipeline
+
+## ReAlign Dataset
+
+## Other Resources
+
+### Tasks Description and Formats
+
+### Task Classifier: Model and Data
+
+### Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses
+
+## Citation
+
+## Acknowledgements
