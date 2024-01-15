@@ -179,6 +179,51 @@ Set your OpenAI API key:
 export OPENAI_API_KEY=...
 ```
 
+Run the following script:
+```python
+python reformat.py \
+    --input_data_path dataset_retrieval_clean_evidence.json \
+    --output_directory reformat_results \
+    --tokenizer_path meta-llama/Llama-2-7b-chat-hf \ # or the local directory to store the downloaded tokenizer
+    --dataset_batch_id 0 \ # the first file (it's in 0 - 9) of ten files
+    --dataset_batch_num 10 \ # the total number of the file
+    --openai_key <OPENAI_API_KEY> \
+    --top_k 2 \ # output 2 reformatted response for each response
+    --model gpt-3.5-turbo-1106 \
+    --temperature 0.3 \
+    --top_p 1 \
+    --target_length 4096
+```
+
+Note that we are using process parallel to speedup, which means that we are going to run `dataset_batch_num` processes at the same time for reformatting, and each process will need to specify the `dataset_batch_id` manually.
+
+For example:
+
+If you set `dataset_batch_num` as 10, it means the datasets will be split into 10 subdataset (10x acceleration). You should run the script 10 times at the same time, each time specifying `dataset_batch_id` as 0 through 9.
+
+Then, you can get `dataset_batch_num` files in the directory `output_directory`.
+
+Run the following script to merge these files into one final datasets:
+```python
+python parallel_data_merge.py \
+    --input_data_path dataset_retrieval_clean_evidence.json \ # the <input_data_path> in reformat script
+    --output_directory reformat_results \ # the <output_directory> in reformat script
+    --final_output_path dataset_reformat.json
+```
+Finally, you can get the final reformatted datasets.
+
+#### Step 5: Post Filtering
+You can combine the filtering rules in `rewrite_data_selection.py` or customize the filtering rules.
+
+Run the following script to filter the reformatted dataset:
+```python
+python rewrite_data_selection.py \
+    --input_original_data_path dataset_retrieval_clean_evidence.json \ # the dataset path before reformatting
+    --input_rewrite_data_path dataset_reformat.json \ # the reformatted dataset path
+    --output_path realign_dataset.json # the final dataset path after filtering
+```
+
+Now, you can get the final realign dataset `realign_dataset.json`.
 
 ## ReAlign Dataset
 
