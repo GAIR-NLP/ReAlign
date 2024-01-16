@@ -240,9 +240,9 @@ The datasets also can be loaded on 🤗Hugging Face:
 
 | Dataset Name   | Hugging Face Link | Size |
 |-------|-----------------------------------------------------------|------|
-| ReAlign Open-Platypus | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 25K  |
-| ReAlign Alpaca | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 52K  |
-| ReAlign No Robots | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 10K  |
+| ReAlign Open-Platypus | [🤗 GAIR/ReAlign-Open-Platypus](https://huggingface.co/datasets/GAIR/ReAlign-Open-Platypus) | 25K  |
+| ReAlign Alpaca | [🤗 GAIR/ReAlign-Alpaca](https://huggingface.co/datasets/GAIR/ReAlign-Alpaca) | 52K  |
+| ReAlign No Robots | [🤗 GAIR/ReAlign-No-Robots](https://huggingface.co/datasets/GAIR/ReAlign-No-Robots) | 10K  |
 
 ## Other Resources
 
