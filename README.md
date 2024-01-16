@@ -12,8 +12,8 @@ This is the official repository for [**Reformatted Alignment**](https://arxiv.or
   - [Pipeline](#pipeline)
 - [ReAlign Dataset](#realign-dataset)
 - [Other Resources](#other-resources)
-  - [Tasks Description and Formats](#scenarios)
-  - [Task Classifier: Model and Data](#scenario-classifier)
+  - [Tasks Description and Formats](#tasks-description-and-formats)
+  - [The Data for Task Classifier](#the-data-for-task-classifier)
   - [Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses](#factuality-evaluation)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
@@ -262,15 +262,15 @@ The format is as follows:
 }
 ```
 
-### Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses
+### Factuality Evaluation
 
 We randomly sample 100 cases from NQ Dataset for factuality evaluation, which can be found in `datasets/nq`.
 
 The ground truth is in `datasets/nq/nq_factuality_100.json`.
 
-The ChatGPT response is in `datasets/nq/nq_factuality_100_ChatGPT_response.json`.
+The ChatGPT responses is in `datasets/nq/nq_factuality_100_ChatGPT_response.json`.
 
-The ReAlign response is in `datasets/nq/nq_factuality_100_realign.json`
+The ReAlign responses is in `datasets/nq/nq_factuality_100_realign.json`
 
 The format is as follows:
 ```python
