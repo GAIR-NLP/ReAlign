@@ -228,17 +228,70 @@ python rewrite_data_selection.py \
 Now, you can get the final realign dataset `realign_dataset.json`.
 
 ## ReAlign Dataset
+We reformat three datasets based Open-Platypus, Alpaca, and No Robots:
 
+ReAlign Open-Platypus: `datasets/realign_OpenPlatypus.json`
 
+ReAlign Alpaca: `datasets/realign_alpaca.json`
+
+ReAlign No Robots: `datasets/realign_no_robots.json`
+
+The datasets also can be loaded on 🤗Hugging Face:
+
+| Dataset Name   | Hugging Face Link | Size |
+|-------|-----------------------------------------------------------|------|
+| ReAlign Open-Platypus | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 25K  |
+| ReAlign Alpaca | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 52K  |
+| ReAlign No Robots | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | 10K  |
 
 ## Other Resources
 
 ### Tasks Description and Formats
+The tasks description and predefined formats can be found in `code/constant.py`.
 
 ### The Data for Task Classifier
+The training data for the task classifier is in `datasets/classification/task_classifier_train_dataset.json`.
+
+The test data is in `datasets/classification/task_classifier_test_dataset.json`.
+
+The format is as follows:
+```python
+{
+        "instruction": "Create a story about a dog that finds a magical portal.",
+        "category": "story_generation"
+}
+```
 
 ### Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses
 
+We randomly sample 100 cases from NQ Dataset for factuality evaluation, which can be found in `datasets/nq`.
+
+The ground truth is in `datasets/nq/nq_factuality_100.json`.
+
+The ChatGPT response is in `datasets/nq/nq_factuality_100_ChatGPT_response.json`.
+
+The ReAlign response is in `datasets/nq/nq_factuality_100_realign.json`
+
+The format is as follows:
+```python
+{
+        "items": [
+            {
+                "from": "human",
+                "value": "when did the democratic party change its name?"
+            },
+            {
+                "from": "gpt",
+                "value": "the 1830s"
+            }
+        ],
+        "id": 0
+}
+```
+
 ## Citation
+Please cite the paper if the resource in this repo or the paper is helpful to you.
+
 
 ## Acknowledgements
+We thank the GAIR members who reviewed our paper and gave valuable feedback. We appreciate the authors in [OpenChat](https://github.com/imoneoi/openchat) for providing the training codebase and the helpfulness.
