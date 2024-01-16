@@ -35,6 +35,7 @@ pip install -r requirements.txt
 * get your OpenAI API key from [here](https://beta.openai.com/). This is used for reformatting.
 * get your Serper API key from [here](https://serper.dev/). This is only used for retrieval with Google Search. 
 
+
 #### Step 1: Task Classification
 Download the task classifier from huggingface hub:
 
@@ -128,6 +129,7 @@ task = output[0].outputs[0].text
 print(task) # should be `advice_giving`.
 # If the classified result is not in task list, set it as `default`.
 ```
+
 
 #### Step 2: Prepare your dataset
 Convert your dataset into the following format with json type, same as the ReAlign datasets.
@@ -226,6 +228,8 @@ python rewrite_data_selection.py \
 Now, you can get the final realign dataset `realign_dataset.json`.
 
 ## ReAlign Dataset
+
+
 
 ## Other Resources
 
