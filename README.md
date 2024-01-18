@@ -29,7 +29,7 @@ Specifically, we propose a simple and effective method for alignment: **ReAlign*
 
 
 
-<img src="./figs/overall_figs.jpg" style="zoom: 25%;" />
+<div align=center><img src="./figs/overall_figs.jpg" style="zoom: 25%;" /></div>
 <center>An overview of our <strong>ReAlign</strong> including three steps. KILT denotes Knowledge Intensive Language Tasks.</center>
 
 ReAlign includes three steps:
@@ -37,10 +37,10 @@ ReAlign includes three steps:
 2. **Retrieval augmentation**: We introduce more knowledge using retrieval augmentation for knowledge-intensive tasks (e.g., open QA and fact verification), enhancing the factuality and informativeness of the responses.
 3. **Reformatting**: To minimize the LLMs' hallucination, instead of entirely distilling from the knowledge of the LLMs, we re-configure the role of LLMs to solely utilize its superior instruction-following ability to reformat the response according to the guidance including the predefined criteria and retrieved evidence.
 
-<p style="text-align:center;"><img src="./figs/intro_graph.jpg" style="zoom: 25%;" width="60%" height="auto"/></p>
+<div align=center><img src="./figs/intro_graph.jpg" style="zoom: 25%;" width="60%" height="auto"/></div>
 <center><strong>ReAlign</strong> reformats the original response to better format and style, improving the readability, without suffering from hallucinations.</center>
 
-<img src="./figs/model_example.jpg" style="zoom: 25%;" />
+<div align=center><img src="./figs/model_example.jpg" style="zoom: 25%;" /></div>
 <center>An example of the response from the original model and the response from the ReAlign Model</center>
 
 ## Quick Start
