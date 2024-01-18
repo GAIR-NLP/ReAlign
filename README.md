@@ -317,4 +317,4 @@ Please cite the paper if the resource in this repo or the paper is helpful to yo
 
 
 ## Acknowledgements
-We thank the GAIR members who reviewed our paper and gave valuable feedback. We appreciate the authors in [OpenChat](https://github.com/imoneoi/openchat) for providing the training codebase and the helpfulness.
+We thank Zengzhi Wang for reviewing our paper and gave valuable feedback. We appreciate the authors in [OpenChat](https://github.com/imoneoi/openchat) for providing the training codebase and the helpfulness.
