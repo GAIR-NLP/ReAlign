@@ -39,9 +39,9 @@ pip install -r requirements.txt
 #### Step 1: Task Classification
 Download the task classifier from huggingface hub:
 
-| Model Name      | HF Checkpoints                                                                           | Size    | License                                                      |
-|-----------------|------------------------------------------------------------------------------------------| ------- | ------------------------------------------------------------ |
-| Task Classifier | [🤗 GAIR/ReAlign-task-classifier](https://huggingface.co/GAIR/) | **13B** | [Llama 2](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) |
+| Model Name      | HF Checkpoints                                                  | Size    | License                                                      |
+|-----------------|-----------------------------------------------------------------| ------- | ------------------------------------------------------------ |
+| Task Classifier | [🤗 GAIR/ReAlign-Task-Classifier](https://huggingface.co/GAIR/ReAlign-Task-Classifier) | **13B** | [Llama 2](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) |
 
 Then, by using the following prompt, the task classifier can identify which task a query belongs to:
 ```python
