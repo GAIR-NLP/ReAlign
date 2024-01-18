@@ -30,7 +30,7 @@ Specifically, we propose a simple and effective method for alignment: **ReAlign*
 
 
 <img src="./figs/overall_figs.jpg" style="zoom: 25%;" />
-<center>An overview of our **ReAlign** including three steps. KILT denotes Knowledge Intensive Language Tasks.</center>
+<center>An overview of our <strong>ReAlign</strong> including three steps. KILT denotes Knowledge Intensive Language Tasks.</center>
 
 ReAlign includes three steps:
 1. **Criteria definition**: We manually create the criteria for reconstructing the response, including 46 different tasks and specific formats for each task, to improve the readability of the responses.
@@ -38,7 +38,7 @@ ReAlign includes three steps:
 3. **Reformatting**: To minimize the LLMs' hallucination, instead of entirely distilling from the knowledge of the LLMs, we re-configure the role of LLMs to solely utilize its superior instruction-following ability to reformat the response according to the guidance including the predefined criteria and retrieved evidence.
 
 <img src="./figs/intro_graph.jpg" style="zoom: 25%;" />
-<center>**ReAlign** reformats the original response to better format and style, improving the readability, without suffering from hallucinations.</center>
+<center><strong>ReAlign</strong> reformats the original response to better format and style, improving the readability, without suffering from hallucinations.</center>
 
 <img src="./figs/model_example.jpg" style="zoom: 25%;" />
 <center>An example of the response from the original model and the response from the ReAlign Model</center>
