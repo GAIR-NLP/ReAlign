@@ -37,7 +37,7 @@ ReAlign includes three steps:
 2. **Retrieval augmentation**: We introduce more knowledge using retrieval augmentation for knowledge-intensive tasks (e.g., open QA and fact verification), enhancing the factuality and informativeness of the responses.
 3. **Reformatting**: To minimize the LLMs' hallucination, instead of entirely distilling from the knowledge of the LLMs, we re-configure the role of LLMs to solely utilize its superior instruction-following ability to reformat the response according to the guidance including the predefined criteria and retrieved evidence.
 
-<img src="./figs/intro_graph.jpg" style="zoom: 25%; margin: 0 auto" width="60%" height="auto"/>
+<p style="text-align:center;"><img src="./figs/intro_graph.jpg" style="zoom: 25%;" width="60%" height="auto"/></p>
 <center><strong>ReAlign</strong> reformats the original response to better format and style, improving the readability, without suffering from hallucinations.</center>
 
 <img src="./figs/model_example.jpg" style="zoom: 25%;" />
