@@ -139,7 +139,7 @@ from vllm import LLM, SamplingParams
 import torch
 
 num_gpus = torch.cuda.device_count()
-model_name_or_dir = "GAIR/ReAlign-task-classifier" # or the local directory to store the downloaded model
+model_name_or_dir = "GAIR/ReAlign-Task-Classifier" # or the local directory to store the downloaded model
 llm = LLM(model=model_name_or_dir, tensor_parallel_size=num_gpus)
 
 query = "Give three tips for staying healthy."
