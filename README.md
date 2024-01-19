@@ -21,7 +21,7 @@ This is the official repository for [**Reformatted Alignment**](https://arxiv.or
 ## Introduction
 We are re-configuring the role of large models in the construction of instruction data. Instead of directly distilling and relying entirely on the knowledge of the large model, we are solely harnessing its superior instruction-following capability to reconstruct responses according to our pre-defined criteria.
 
-Specifically, we propose a simple and effective method for alignment: **ReAlign** (**Re**formatted **Align**ment, with the following advantages:
+Specifically, we propose a simple and effective method for alignment: **ReAlign** (**Re**formatted **Align**ment), with the following advantages:
 1. **ReAlign** clearly distinguishes the roles that large models and humans should play in the alignment process, enabling individuals to define their preferred values (e.g., specific format for better readability) more flexibly, while the large model synthesizes instructions based on human preferences automatically.
 2. **ReAlign** is orthogonal to supervised fine-tuning (SFT), reinforcement learning from human feedback (RLHF), direct preference optimization (DPO), or other alignment techniques to further enhance the performance of the model.
 3. **ReAlign** can utilize LLMs to automatically enhance the quality of existing instruction datasets at the minimal cost of human annotation and hallucination.
