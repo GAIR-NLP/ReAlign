@@ -1,8 +1,10 @@
 # Reformatted Alignment
 This is the official repository for [**Reformatted Alignment**](https://arxiv.org/abs/xxx).
 
+[Run-Ze Fan](https://scholar.google.com/citations?user=mhot7AUAAAAJ&hl=en), [Xuefeng Li](https://github.com/hongtangshui), [Haoyang Zou](https://openreview.net/profile?id=~Haoyang_Zou1), [Junlong Li](https://lockon-n.github.io/), [Shwai He](https://shwai-he.github.io/), [Ethan Chern](https://ethanc111.github.io/), [Jiewen Hu](https://www.linkedin.com/in/jiewen-hu/), [Pengfei Liu](http://pfliu.com/)
+
 ## News
-- **Jan 2024**: We release the preprint paper on Arxiv, ReAlign data, and other useful resources in developing them (tasks description, hand-written format, tasks classifier, training data, and nq dataset for factuality evaluation).
+- **Feb 2024**: We release the preprint paper on Arxiv, ReAlign data, and other useful resources in developing them (tasks description, hand-written format, tasks classifier, training data, and NQ dataset for factuality evaluation).
 
 ## Table of contents
 
@@ -14,31 +16,41 @@ This is the official repository for [**Reformatted Alignment**](https://arxiv.or
 - [Other Resources](#other-resources)
   - [Tasks Description and Formats](#tasks-description-and-formats)
   - [The Data for Task Classifier](#the-data-for-task-classifier)
-  - [Factuality Evaluation: NQ Dataset, ChatGPT Responses, and ReAlign Responses](#factuality-evaluation)
+  - [Factuality Evaluation: NQ Dataset](#factuality-evaluation)
 - [Citation](#citation)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-We are re-configuring the role of large models in the construction of instruction data. Instead of directly distilling and relying entirely on the knowledge of the large model, we are solely harnessing its superior instruction-following capability to reconstruct responses according to our pre-defined criteria.
+We explores elevating the quality of existing instruction data to better align with human values, introducing a simple and effective approach named **ReAlign** (**Re**formatted **Align**ment), which *reformats* the responses of instruction data into a format that better aligns with pre-established criteria and the collated evidence.
+This approach minimizes human annotation, hallucination, and the difficulty in scaling, remaining orthogonal to existing alignment techniques.
+Experimentally, ReAlign significantly boosts the general alignment ability, math reasoning, factuality, and readability of the LLMs.
 
-Specifically, we propose a simple and effective method for alignment: **ReAlign** (**Re**formatted **Align**ment), with the following advantages:
-1. **ReAlign** clearly distinguishes the roles that large models and humans should play in the alignment process, enabling individuals to define their preferred values (e.g., specific format for better readability) more flexibly, while the large model synthesizes instructions based on human preferences automatically.
-2. **ReAlign** is orthogonal to supervised fine-tuning (SFT), reinforcement learning from human feedback (RLHF), direct preference optimization (DPO), or other alignment techniques to further enhance the performance of the model.
-3. **ReAlign** can utilize LLMs to automatically enhance the quality of existing instruction datasets at the minimal cost of human annotation and hallucination.
-4. **ReAlign** can provide more additional knowledge for knowledge-intensive tasks, expanding their informativeness and factuality.
+Encouragingly, *without* introducing any additional data or advanced training techniques, and merely by reformatting the response, LLaMA-2-13B's mathematical reasoning ability on GSM8K can be improved **from 46.77% to 56.63%** in accuracy.
+Additionally, a mere 5% of ReAlign data yields a 67% boost in general alignment ability measured by the Alpaca dataset. 
+This work highlights the need for further research into the *science* and *mechanistic interpretability* of LLMs.
 
+The underlying *philosophy* of ReAlign is to re-coordinate the roles of humans and LLMs in the alignment process, leveraging their complementary strengths -- humans articulate their preferences, and LLMs, in turn, reconstruct instructions based on their generative power (e.g., instruction-following ability), without directly using distilled LLM knowledge.
+Through this collaborative synergy, we expect the generated instruction data to be not only more contextually precise but also more closely aligned with human preferences.
+
+
+<div align=center><img src="./figs/Math_Results.jpg" style="zoom: 25%;" /></div>
+<center>The accuracy of the GSM8K test set for LLaMA-2-13B and Mistral-7B models fine-tuned on the training set of GSM8K and MATH with and without \modelname. (a): Training on GSM8K. (b): Training on MATH and testing on GSM8K (Out-of-Distribution Setting).</center>
 
 
 <div align=center><img src="./figs/overall_figs.jpg" style="zoom: 25%;" /></div>
 <center>An overview of our <strong>ReAlign</strong> including three steps. KILT denotes Knowledge Intensive Language Tasks.</center>
 
-ReAlign includes three steps:
-1. **Criteria definition**: We manually create the criteria for reconstructing the response, including 46 different tasks and specific formats for each task, to improve the readability of the responses.
-2. **Retrieval augmentation**: We introduce more knowledge using retrieval augmentation for knowledge-intensive tasks (e.g., open QA and fact verification), enhancing the factuality and informativeness of the responses.
-3. **Reformatting**: To minimize the LLMs' hallucination, instead of entirely distilling from the knowledge of the LLMs, we re-configure the role of LLMs to solely utilize its superior instruction-following ability to reformat the response according to the guidance including the predefined criteria and retrieved evidence.
+The ReAlign process unfolds in three main steps. 
+
+The first step involves **criteria definition**, where humans define their preferences (e.g., the preferred format of responses) in various scenarios in the form of natural language.
+In this paper, we meticulously define criteria for 46 distinct scenarios. 
+
+The second step, **retrieval augmentation**, broadens the knowledge base for knowledge-intensive tasks like open-domain QA and fact verification. This is achieved by incorporating additional information, thereby improving the factuality and informativeness of responses. 
+
+The final step, **reformatting**, aims to re-align the responses with the pre-established criteria and the collated evidence, guaranteeing outputs that are both structured and substantiated.
 
 <div align=center><img src="./figs/intro_graph.jpg" style="zoom: 25%;" width="60%" height="auto"/></div>
-<center><strong>ReAlign</strong> reformats the original response to better format and style, improving the readability, without suffering from hallucinations.</center>
+<center><strong>ReAlign</strong> realigns the original response with the pre-defined criteria to be a better format.</center>
 
 <div align=center><img src="./figs/model_example.jpg" style="zoom: 25%;" /></div>
 <center>An example of the response from the original model and the response from the ReAlign Model</center>
@@ -291,10 +303,6 @@ We randomly sample 100 cases from NQ Dataset for factuality evaluation, which ca
 
 The ground truth is in `datasets/nq/nq_factuality_100.json`.
 
-The ChatGPT responses is in `datasets/nq/nq_factuality_100_ChatGPT_response.json`.
-
-The ReAlign responses is in `datasets/nq/nq_factuality_100_realign.json`
-
 The format is as follows:
 ```python
 {
@@ -317,4 +325,4 @@ Please cite the paper if the resource in this repo or the paper is helpful to yo
 
 
 ## Acknowledgements
-We thank Zengzhi Wang for reviewing our paper and gave valuable feedback. We appreciate the authors in [OpenChat](https://github.com/imoneoi/openchat) for providing the training codebase and the helpfulness.
+We thank the GAIR members for reviewing our paper and giving valuable feedback. We appreciate the authors in [OpenChat](https://github.com/imoneoi/openchat) for providing the training codebase and the helpfulness.
