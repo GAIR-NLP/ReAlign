@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Reformatted Alignment: Distill LLM’s Generative Power instead of Generation">
+  <meta name="keywords" content="Alignment, Language Models, NLP">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reformatted Alignment: Distill LLM’s Generative Power instead of Generation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/mathpile-logo-1.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Reformatted Alignment</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=mhot7AUAAAAJ&hl=en" target="_blank">Run-Ze Fan</a><sup>1,6</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/hongtangshui" target="_blank">Xuefeng Li</a><sup>1,6</sup>,</span>
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Haoyang_Zou1" target="_blank">Haoyang Zou</a><sup>3,6</sup>,</span>
+            <span class="author-block">
+              <a href="https://lockon-n.github.io/" target="_blank">Junlong Li</a><sup>1,6</sup>,</span>
+            <span class="author-block">
+              <a href="https://shwai-he.github.io/" target="_blank">Shwai He</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="https://ethanc111.github.io/" target="_blank">Ethan Chern</a><sup>1,6</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/jiewen-hu/" target="_blank">Jiewen Hu</a><sup>5,6</sup>,</span>
+              <span class="author-block">
+              <a href="http://pfliu.com/" target="_blank">Pengfei Liu</a><sup>1,2,6*</sup>
+            </span>
+            <!-- <span class="author-block">
+              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+            </span> -->
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+            <span class="author-block"><sup>2</sup>Shanghai Artificial Intelligence Laboratory,</span>
+            <span class="author-block"><sup>3</sup>Fudan University,</span>
+            <span class="author-block"><sup>4</sup>University of Maryland, College Park,</span>
+            <span class="author-block"><sup>5</sup>CMU,</span>
+            <span class="author-block"><sup>6</sup>Generative AI Research Lab (GAIR)</span>
+            <span class="author-block"><sup>*</sup>Corresponding Author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+<!--              <span class="link-block">-->
+<!--                <a href="https://huggingface.co/papers/2312.17120" target="_blank"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="fas fa-file-pdf"></i>-->
+<!--                  </span>-->
+<!--                  <span>Paper</span>-->
+<!--                </a>-->
+<!--              </span>-->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/xxx" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/GAIR-NLP/ReAlign" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+<!--              <span class="link-block">-->
+<!--                <a href="https://huggingface.co/datasets/GAIR/MathPile" target="_blank"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="far fa-images"></i>-->
+<!--                  </span>-->
+<!--                  <span>Datasets</span>-->
+<!--                </a>-->
+<!--              </span>-->
+              <!-- Twitter Link. -->
+<!--              <span class="link-block">-->
+<!--                <a href="https://twitter.com/_akhaliq/status/1740571256234057798" target="_blank"-->
+<!--                   class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                      <i class="fab fa-twitter"></i>-->
+<!--                  </span>-->
+<!--                  <span>Twitter by AK</span>-->
+<!--                </a>-->
+<!--              </span>-->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            We explores elevating the quality of existing instruction data to better align with human values, introducing a simple and effective approach named <b>ReAlign</b> (<b>Re</b>formatted <b>Align</b>ment), which <i>reformats</i> the responses of instruction data into a format that better aligns with pre-established criteria and the collated evidence.
+This approach minimizes human annotation, hallucination, and the difficulty in scaling, remaining orthogonal to existing alignment techniques.
+Experimentally, ReAlign significantly boosts the general alignment ability, math reasoning, factuality, and readability of the LLMs.
+</p>
+          <p>
+            Encouragingly, <i>without</i> introducing any additional data or advanced training techniques, and merely by reformatting the response, LLaMA-2-13B's mathematical reasoning ability on GSM8K can be improved <b>from 46.77% to 56.63%</b> in accuracy.
+Additionally, a mere 5% of ReAlign data yields a 67% boost in general alignment ability measured by the Alpaca dataset.
+            This work highlights the need for further research into the <i>science</i> and <i>interpretability</i> of LLMs.
+</p>
+          <p>
+The underlying <i>philosophy</i> of ReAlign is to re-coordinate the roles of humans and LLMs in the alignment process, leveraging their complementary strengths -- humans articulate their preferences, and LLMs, in turn, reconstruct instructions based on their generative power (e.g., instruction-following ability), without directly using distilled LLM knowledge.
+Through this collaborative synergy, we expect the generated instruction data to be not only more contextually precise but also more closely aligned with human preferences.
+          </p>
+<figure>
+            <img src="figs/Math_Results.jpg" width=100% alt="Description of first image"/>
+  <figcaption>
+    The accuracy of the GSM8K test set for LLaMA-2-13B and Mistral-7B models fine-tuned on the training set of GSM8K and MATH with and without <b>ReAlign</b>. (a): Training on GSM8K. (b): Training on MATH and testing on GSM8K (Out-of-Distribution Setting).
+    </figcaption>
+</figure>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+
+
+          <figure>
+            <img src="figs/overall_figs.jpg" width=100% alt="Description of second image"/>
+  <figcaption>
+    An overview of our <strong>ReAlign</strong> including three steps. KILT denotes Knowledge Intensive Language Tasks.
+    </figcaption>
+</figure>
+
+          <p>The ReAlign process unfolds in three main steps. </p>
+
+          <p>The first step involves <b>criteria definition</b>, where humans define their preferences (e.g., the preferred format of responses) in various scenarios in the form of natural language.
+  In this paper, we meticulously define criteria for 46 distinct scenarios. </p>
+
+          <p>The second step, <b>retrieval augmentation</b>, broadens the knowledge base for knowledge-intensive tasks like open-domain QA and fact verification. This is achieved by incorporating additional information, thereby improving the factuality and informativeness of responses. </p>
+
+          <p>The final step, <b>reformatting</b>, aims to re-align the responses with the pre-established criteria and the collated evidence, guaranteeing outputs that are both structured and substantiated.</p>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Examples</h2>
+        <div class="content has-text-justified">
+
+<figure>
+            <img src="figs/intro_graph.jpg" width=80% alt="Description of third image"/>
+  <figcaption>
+<b>ReAlign</b> realigns the original response with the pre-defined criteria to be a better format.
+  </figcaption>
+</figure>
+
+          <figure>
+            <img src="figs/model_example.jpg" width=100% alt="Description of fourth image"/>
+  <figcaption>
+    An example of the response from the original model and the response from the <b>ReAlign</b> Model.
+  </figcaption>
+</figure>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+
+          <figure>
+            <img src="figs/alignment_results.jpg" width=100% alt="Description of fifth image"/>
+  <figcaption>
+    The results of the general alignment ability on the original datasets and the ReAlign datasets.
+  </figcaption>
+</figure>
+
+           <figure>
+            <img src="figs/math_reasoning.jpg" width=60% alt="Description of sixth image"/>
+  <figcaption>
+The results of math reasoning on GSM8K, MATH and them + ReAlign based on LLaMA-2-13B and Mistral-7B. We test models on both GSM8K and MATH test sets. We report the accuracy by exact matching.
+  </figcaption>
+</figure>
+
+          <figure>
+            <img src="figs/factuality_results.jpg" width=60% alt="Description of seventh image"/>
+  <figcaption>
+    The results of the factuality score.
+  </figcaption>
+</figure>
+
+          <figure>
+            <img src="figs/readability_results.jpg" width=100% alt="Description of eighth image"/>
+  <figcaption>
+    The readability win-rate of the original dataset + ReAlign against the original dataset based on LLaMA-2-13B, judged by GPT-4 and human.
+  </figcaption>
+</figure>
+
+          <figure>
+            <img src="figs/scaling_law.jpg" width=80% alt="Description of ninth image"/>
+  <figcaption>
+The scaling trends in ReAlign data percentage, including general alignment ability and knowledge ability. We conduct the experiment in the Alpaca dataset based on LLaMA-2-13B.
+  </figcaption>
+</figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://huggingface.co/papers/xxx">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/GAIR-NLP/ReAlign" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

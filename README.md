@@ -34,7 +34,7 @@ Through this collaborative synergy, we expect the generated instruction data to 
 
 
 <div align=center><img src="./figs/Math_Results.jpg" style="zoom: 25%;" /></div>
-<center>The accuracy of the GSM8K test set for LLaMA-2-13B and Mistral-7B models fine-tuned on the training set of GSM8K and MATH with and without \modelname. (a): Training on GSM8K. (b): Training on MATH and testing on GSM8K (Out-of-Distribution Setting).</center>
+<center>The accuracy of the GSM8K test set for LLaMA-2-13B and Mistral-7B models fine-tuned on the training set of GSM8K and MATH with and without ReAlign. (a): Training on GSM8K. (b): Training on MATH and testing on GSM8K (Out-of-Distribution Setting).</center>
 
 
 <div align=center><img src="./figs/overall_figs.jpg" style="zoom: 25%;" /></div>
