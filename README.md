@@ -1,5 +1,5 @@
 # Reformatted Alignment
-This is the official repository for [**Reformatted Alignment**](https://arxiv.org/abs/xxx).
+This is the official repository for [**Reformatted Alignment**](https://arxiv.org/abs/2402.12219).
 
 [Run-Ze Fan](https://scholar.google.com/citations?user=mhot7AUAAAAJ&hl=en), [Xuefeng Li](https://github.com/hongtangshui), [Haoyang Zou](https://openreview.net/profile?id=~Haoyang_Zou1), [Junlong Li](https://lockon-n.github.io/), [Shwai He](https://shwai-he.github.io/), [Ethan Chern](https://ethanc111.github.io/), [Jiewen Hu](https://www.linkedin.com/in/jiewen-hu/), [Pengfei Liu](http://pfliu.com/)
 
