@@ -322,6 +322,15 @@ The format is as follows:
 
 ## Citation
 Please cite the paper if the resource in this repo or the paper is helpful to you.
+```
+@article{fan2024reformatted,
+      title={Reformatted Alignment}, 
+      author={Run-Ze Fan and Xuefeng Li and Haoyang Zou and Junlong Li and Shwai He and Ethan Chern and Jiewen Hu and Pengfei Liu},
+      year={2024},
+      journal={arXiv preprint arXiv:2402.12219},
+      url={https://arxiv.org/abs/2402.12219}
+}
+```
 
 
 ## Acknowledgements
