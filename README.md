@@ -325,7 +325,7 @@ Please cite the paper if the resource in this repo or the paper is helpful to yo
 ```
 @article{fan2024reformatted,
       title={Reformatted Alignment}, 
-      author={Run-Ze Fan and Xuefeng Li and Haoyang Zou and Junlong Li and Shwai He and Ethan Chern and Jiewen Hu and Pengfei Liu},
+      author={Fan, Run-Ze and Li, Xuefeng and Zou, Haoyang and Li, Junlong and He, Shwai and Chern, Ethan and Hu, Jiewen and Liu, Pengfei},
       year={2024},
       journal={arXiv preprint arXiv:2402.12219},
       url={https://arxiv.org/abs/2402.12219}
