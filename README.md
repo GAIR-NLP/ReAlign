@@ -263,7 +263,7 @@ python rewrite_data_selection.py \
 Now, you can get the final realign dataset `realign_dataset.json`.
 
 ## ReAlign Dataset
-We reformat three datasets based Open-Platypus, Alpaca, and No Robots:
+We reformat five datasets based Open-Platypus, Alpaca, No Robots, GSM8K, and MATH:
 
 ReAlign Open-Platypus: `datasets/realign_OpenPlatypus.json`
 
@@ -271,13 +271,19 @@ ReAlign Alpaca: `datasets/realign_alpaca.json`
 
 ReAlign No Robots: `datasets/realign_no_robots.json`
 
+ReAlign GSM8K: `datasets/realign_gsm8k.json`
+
+ReAlign MATH: `datasets/realign_math.json`
+
 The datasets also can be loaded on 🤗Hugging Face:
 
-| Dataset Name   | Hugging Face Link | Size |
-|-------|-----------------------------------------------------------|------|
+| Dataset Name          | Hugging Face Link | Size |
+|-----------------------|-----------------------------------------------------------|------|
 | ReAlign Open-Platypus | [🤗 GAIR/ReAlign-Open-Platypus](https://huggingface.co/datasets/GAIR/ReAlign-Open-Platypus) | 25K  |
-| ReAlign Alpaca | [🤗 GAIR/ReAlign-Alpaca](https://huggingface.co/datasets/GAIR/ReAlign-Alpaca) | 52K  |
-| ReAlign No Robots | [🤗 GAIR/ReAlign-No-Robots](https://huggingface.co/datasets/GAIR/ReAlign-No-Robots) | 10K  |
+| ReAlign Alpaca        | [🤗 GAIR/ReAlign-Alpaca](https://huggingface.co/datasets/GAIR/ReAlign-Alpaca) | 52K  |
+| ReAlign No Robots     | [🤗 GAIR/ReAlign-No-Robots](https://huggingface.co/datasets/GAIR/ReAlign-No-Robots) | 10K  |
+| ReAlign GSM8K         | [🤗 GAIR/ReAlign-GSM8K](https://huggingface.co/datasets/GAIR/ReAlign-GSM8K) | 7.4K |
+| ReAlign MATH          | [🤗 GAIR/ReAlign-MATH](https://huggingface.co/datasets/GAIR/ReAlign-MATH) | 6.5K |
 
 ## Other Resources
 
