@@ -4,6 +4,7 @@ This is the official repository for [**Reformatted Alignment**](https://arxiv.or
 [Run-Ze Fan](https://scholar.google.com/citations?user=mhot7AUAAAAJ&hl=en), [Xuefeng Li](https://github.com/hongtangshui), [Haoyang Zou](https://openreview.net/profile?id=~Haoyang_Zou1), [Junlong Li](https://lockon-n.github.io/), [Shwai He](https://shwai-he.github.io/), [Ethan Chern](https://ethanc111.github.io/), [Jiewen Hu](https://www.linkedin.com/in/jiewen-hu/), [Pengfei Liu](http://pfliu.com/)
 
 ## News
+- **Sep 2024**: Our paper has been accepted by EMNLP 2024 Findings! 🎉
 - **Feb 2024**: We release the preprint paper on Arxiv, ReAlign data, and other useful resources in developing them (tasks description, hand-written format, tasks classifier, training data, and NQ dataset for factuality evaluation).
 
 ## Table of contents
